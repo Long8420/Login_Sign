@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightwhite"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:gravity="end"
+            android:textColor="@color/blackcolor"
+            android:textSize="35dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Create Your\nAccount"
+          android:gravity="center"
+          android:fontFamily="sans-serif-black"
+          android:textSize="50dp"
+          android:textStyle="bold"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:hint="First Name"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            android:textColorHint="@color/blackcolor"
+            android:elevation="5dp"
+            android:background="@drawable/btn"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:hint="Use Name"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            android:textColorHint="@color/blackcolor"
+            android:elevation="5dp"
+            android:background="@drawable/btn"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:hint="Email"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            android:textColorHint="@color/blackcolor"
+            android:elevation="5dp"
+            android:background="@drawable/btn"/>
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:hint="Password"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blackcolor"
+            android:elevation="5dp"
+            android:background="@drawable/btn"/>
+
+        <Button
+            android:layout_width="500dp"
+            android:layout_height="70dp"
+            android:id="@+id/DKy"
+            android:text="Đăng Ký"
+            android:textSize="20dp"
+            android:textColor="@color/blackcolor"
+            android:textAllCaps="false"
+            android:layout_marginTop="35dp"
+            android:elevation="15dp"
+            android:onClick="gotoNext"
+            android:background="@drawable/dkbtn"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:text="HỌ VÀ TÊN: NGUYỄN HUỲNH PHI LONG"
+    android:textStyle="bold"
+    android:textSize="15dp"
+    android:gravity="center"
+    android:layout_marginTop="80dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="MSV:1811505310126"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+    </TextView>
+
+</LinearLayout>
+</LinearLayout>
